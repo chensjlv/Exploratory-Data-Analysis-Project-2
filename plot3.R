@@ -22,4 +22,4 @@ g + geom_point() +
   geom_smooth(method = "lm") + 
   theme_bw()
 dev.off()
-## The result is kind of obvious. Based on our model, it shows that generally, total emissions of PM2.5 is increasing.
+## Based on our model, point type is the only one which shows a increasing trend.

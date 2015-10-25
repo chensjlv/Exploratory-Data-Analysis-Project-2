@@ -19,4 +19,4 @@ abline(fm.orig, col = "red", lw = 2)
 abline(fm.rq, col = "blue", lw = 2)
 legend("topright", legend = c('PM2.5', 'lm fit', 'rq fit'), pch = c(1, NA, NA), lty = c(NA, 1, 1), col = c("black", "red", "blue"))
 dev.off()
-## The result is kind of obvious. Based on our model, it shows that generally, total emissions of PM2.5 is increasing.
+## The result is kind of obvious. Based on our model, it shows that generally, total emissions of PM2.5 is decreasing

@@ -19,9 +19,9 @@ model <- lm(pm25~year, summaryByYear)
 png(filename = "plot4.png", width = 640, height = 480, bg="transparent")
 g <- ggplot(summaryByYear, aes(year, pm25))
 g + geom_point() + 
-  ggtitle(expression(atop("Total PM2.5 emissions per year", atop(italic("Baltimore City"), "")))) +
+  ggtitle(expression(atop("Total PM2.5 emissions per year", atop(italic("from coal combustion-related sources"), "")))) +
   ylab("PM2.5 (tons)") + 
   geom_smooth(method = "lm") + 
   theme_bw()
 dev.off()
-## The result is kind of obvious. Based on our model, it shows that generally, total emissions of PM2.5 is increasing.
+## Based on our model, it shows that generally, total emissions of PM2.5 is decreasing from coal combustion-related sources

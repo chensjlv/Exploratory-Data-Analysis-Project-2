@@ -26,4 +26,4 @@ g + geom_point() +
   geom_smooth(method = "lm", linetype = "dashed") + 
   theme_bw()
 dev.off()
-## The result is kind of obvious. Based on our model, it shows that generally, total emissions of PM2.5 is increasing.
+## Based on our model, it shows that Los Angeles County has greater changes over time.
